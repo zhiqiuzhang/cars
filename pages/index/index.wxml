@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+    <view>
+      <image style="height: 50px;width: 88px" src="{{src}}"></image>
+    </view>
+  
+    <view wx:for="{{images}}">
+      <image src="{{item}}" bindtap="bindJump"></image>
+    </view>
+  
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

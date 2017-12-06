@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test",
+    "pages/contact/contact",
+    "pages/detail/detail",
+    "pages/request/request",
+    "pages/details/details"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#a4a3ed",
+    "navigationBarTitleText": "宝马",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#9fe7da",
+    "enablePullDownRefresh": "true"
+  },
+  "tabBar": {
+    "color": "#809bf5",
+    "selectedColor": "#243879",
+    "backgroundColor": "#b3b864",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "推荐",
+        "selectedIconPath": "static/images/tuijian.png",
+        "iconPath": "static/images/tui.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "所有车型",
+        "selectedIconPath": "static/images/alll.png",
+        "iconPath": "static/images/all.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "预约试驾",
+        "selectedIconPath": "static/images/f1.png",
+        "iconPath": "static/images/方向盘.png"
+      },
+      {
+        "pagePath": "pages/request/request",
+        "text": "车型展示",
+        "selectedIconPath": "static/images/car.png",
+        "iconPath": "static/images/cars.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "联系我们",
+        "selectedIconPath": "static/images/phone1.png",
+        "iconPath": "static/images/phone.png"
+      }
+    ]
+  }
+}

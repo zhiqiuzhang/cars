@@ -1,0 +1,22 @@
+<view class="container">
+<view class="home">{{text}}</view>
+<view style="margin-bottom: 10px">
+  <image src="{{src}}"></image>
+  
+</view>
+<form bindsubmit="formSubmit" bindreset="formReset">
+<view class="section">
+  <input name="user" placeholder="请输入姓名" auto-focus/>
+</view>
+<view class="section">
+  <input name="phone" placeholder="请输入电话号码" auto-focus/>
+</view>
+<button type="default" size="mini" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="default" form-type="submit" style="color: white;background-color: black;"> 提交预约 </button>
+</form>
+
+
+ <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

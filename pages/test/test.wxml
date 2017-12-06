@@ -1,0 +1,26 @@
+<!-- <view class="container"> -->
+  <view>
+    <image src="{{src}}"></image>
+  </view>
+  <view class="xc">
+    <text>许昌学院</text>
+  </view>
+  <view class="ty" bindtap="mapD">
+  <text>体验中心地址:</text>
+  <text>河南省许昌市许昌学院</text>
+  <image src="{{srcd}}"></image>
+  
+  </view>
+  <view class="phone" bindtap="phoneD">
+  <image src="{{srcp}}"></image> 
+    <text>体验中心电话：
+    </text>
+      
+    <text>021-8043-5321</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+
+
+<!-- </view> -->

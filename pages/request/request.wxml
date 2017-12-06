@@ -1,0 +1,8 @@
+ <view class="container">
+  <view>宝马汽车</view>
+  <view wx:for="{{product}}">
+    <text>{{item.name}}</text>
+    <image src="{{item.image}}" bindtap="bindJump" data-product-name="{{item.name}}" data-product-image="{{item.image}}" data-product-price="{{item.price}}"></image>
+  </view>
+
+</view> 

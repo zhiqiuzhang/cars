@@ -1,0 +1,38 @@
+<!--logs.wxml-->
+<!-- <view class="container"> -->
+  <!-- <view class="contain">
+  <text>{{model[0].m}}</text>
+   <image src="{{model[0].s}}" style="height: 100px" bindtap="bindJump" data-product-id="{{model[0].m}}" data-product-src="{{model[0].s}}" data-product-power="{{model[0].p}}" data-product-mph="{{model[0].h}}"></image> 
+  </view>
+  <view class="contain">
+  <text>{{model[1].m}}</text>
+  <image src="{{model[1].s}}" style="height: 100px"></image>
+  </view>
+  <view class="contain">
+  <text>{{model[2].m}}</text>
+  <image src="{{model[2].s}}" style="height: 100px"></image>
+  </view>
+  <view class="contain">
+  <text>{{model[3].m}}</text>
+  <image src="{{model[3].s}}" style="height: 100px"></image>
+  </view>
+  <view class="contain">
+  <text>{{model[4].m}}</text>
+  <image src="{{model[4].s}}" style="height: 100px"></image>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+<!-- </view> -->
+ <view>
+ 
+  <!-- <view>宝马汽车</view> -->
+  <view wx:for="{{model}}" class="contain">
+    <text>{{item.m}}</text>
+    <image src="{{item.s}}" bindtap="bindJump" data-product-name="{{item.m}}" data-product-image="{{item.s}}" data-product-price="{{item.p}}" data-product-speed="{{item.h}}" style="height: 90px"></image>
+  </view>
+
+   <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> 

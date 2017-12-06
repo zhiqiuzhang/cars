@@ -1,0 +1,6 @@
+<view class="container">
+  <image src="{{productImage}}"></image>
+  <text>型号：{{productName}}</text>
+  <text>价格：{{productPrice}}</text>
+</view>
+

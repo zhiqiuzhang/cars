@@ -1,0 +1,7 @@
+<view class="container">
+   <image src="{{productImage}}"></image> 
+    <text>型号：{{productName}}</text>
+   <text>功率：{{productPrice}}</text>  
+   <text>时速：{{productSpeed}}</text> 
+  
+</view>
